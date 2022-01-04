@@ -10,11 +10,3 @@ func (a *iphone) makeChip() Chip {
 		},
 	}
 }
-
-func (a *iphone) makeCamera() Camera {
-	return &iPhoneCamera{
-		camera: camera{
-			pixel: "10",
-		},
-	}
-}
