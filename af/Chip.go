@@ -1,4 +1,4 @@
-package af
+package main
 
 type Chip interface {
 	powerby(manfacture string)

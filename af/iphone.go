@@ -1,4 +1,4 @@
-package af
+package main
 
 type iphone struct {
 }
@@ -6,7 +6,7 @@ type iphone struct {
 func (a *iphone) makeChip() Chip {
 	return &iphoneChip{
 		chip: chip{
-			powerby: "m1",
+			manfacture: "m1",
 		},
 	}
 }

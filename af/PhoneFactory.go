@@ -1,10 +1,9 @@
-package af
+package main
 
 import "fmt"
 
 type PhoneFactory interface {
 	makeChip() Chip
-	makeCamera() Camera
 }
 
 func getPhoneFactory(model string) (PhoneFactory, error) {
