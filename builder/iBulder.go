@@ -9,7 +9,7 @@ type iBuilder interface {
 
 func getBuilder(builderType string) iBuilder {
 	if builderType == "normal" {
-		return &normalBuilder{}
+		return &regularBuilder{}
 	}
 	if builderType == "igloo" {
 		return &iglooBuilder{}
