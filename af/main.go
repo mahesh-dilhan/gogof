@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	adidasFactory, _ := getSportsFactory("adidas")
-	nikeFactory, _ := getSportsFactory("nike")
+	iphoneFactory, _ := getPhoneFactory("iphone")
 	nikeShoe := nikeFactory.makeShoe()
 	nikeShort := nikeFactory.makeShort()
 	adidasShoe := adidasFactory.makeShoe()
