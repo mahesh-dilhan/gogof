@@ -11,8 +11,6 @@ func getBuilder(builderType string) iBuilder {
 	if builderType == "normal" {
 		return &regularBuilder{}
 	}
-	if builderType == "igloo" {
-		return &iglooBuilder{}
-	}
+
 	return nil
 }
