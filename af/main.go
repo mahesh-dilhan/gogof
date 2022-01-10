@@ -4,10 +4,7 @@ import "fmt"
 
 func main() {
 	iphoneFactory, _ := getPhoneFactory("iphone")
-	nikeShoe := nikeFactory.makeShoe()
-	nikeShort := nikeFactory.makeShort()
-	adidasShoe := adidasFactory.makeShoe()
-	adidasShort := adidasFactory.makeShort()
+	iphoneChip := iphoneFactory.makeChip()
 	printShoeDetails(nikeShoe)
 	printShortDetails(nikeShort)
 	printShoeDetails(adidasShoe)
