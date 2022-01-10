@@ -5,15 +5,10 @@ import "fmt"
 func main() {
 	iphoneFactory, _ := getPhoneFactory("iphone")
 	iphoneChip := iphoneFactory.makeChip()
-	printShoeDetails(nikeShoe)
-	printShortDetails(nikeShort)
-	printShoeDetails(adidasShoe)
-	printShortDetails(adidasShort)
+	printShoeDetails(iphoneChip)
+
 }
 
-func printShoeDetails(s iShoe) {
-	fmt.Printf("Logo: %s", s.getLogo())
-	fmt.Println()
-	fmt.Printf("Size: %d", s.getSize())
-	fmt.Println()
+func printChipDetails(c Chip) {
+	fmt.Printf("Power by: %s", c.powerby)
 }
