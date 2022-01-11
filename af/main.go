@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	iphoneFactory, _ := getPhoneFactory("iphone")
 	iphoneChip := iphoneFactory.makeChip()
-	printShoeDetails(iphoneChip)
+	printChipDetails(iphoneChip)
 
 }
 
