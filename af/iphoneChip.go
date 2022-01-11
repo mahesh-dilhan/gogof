@@ -4,6 +4,6 @@ type iphoneChip struct {
 	chip
 }
 
-func (i iphoneChip) powerby(manfacture string) {
-	panic("implement me")
+func (i *iphoneChip) powerby(manfacture string) string {
+	return manfacture
 }
