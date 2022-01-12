@@ -11,6 +11,5 @@ func getBuilder(builderType string) iBuilder {
 	if builderType == "normal" {
 		return &regularBuilder{}
 	}
-
 	return nil
 }
