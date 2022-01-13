@@ -17,11 +17,9 @@ func (b *regularBuilder) setWindowType() {
 func (b *regularBuilder) setDoorType() {
 	b.doorType = "Wooden Door"
 }
-
 func (b *regularBuilder) setNumFloor() {
 	b.floor = 2
 }
-
 func (b *regularBuilder) getHouse() house {
 	return house{
 		doorType:   b.doorType,
