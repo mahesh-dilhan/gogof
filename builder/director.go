@@ -9,11 +9,9 @@ func newDirector(b iBuilder) *director {
 		builder: b,
 	}
 }
-
 func (d *director) setBuilder(b iBuilder) {
 	d.builder = b
 }
-
 func (d *director) buildHouse() house {
 	d.builder.setDoorType()
 	d.builder.setWindowType()
